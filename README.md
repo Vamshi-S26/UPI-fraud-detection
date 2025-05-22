@@ -38,7 +38,7 @@ Includes sender/receiver UPI IDs, transaction amount, date & time, merchant cate
 The app is hosted and running on **Render.com**.
 
 ### 🌍 **Live Demo:**  
-🔗 Visit the live web app here:https://upi-fraud-detection-mvgu.onrender.com
+🔗 Visit the live web app here:[https://upi-fraud-detection-mvgu.onrender.com](https://upi-fraud-detection-1.onrender.com)
 
 ## 🔒 **Security Note**
 
