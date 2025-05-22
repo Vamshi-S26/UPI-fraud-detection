@@ -1,0 +1,11 @@
+sender_upi_id,receiver_upi_id,amount,user_app_status,bank_actual_status,timestamp_date,timestamp_time,location,device_id,merchant_category,prediction,fraud_probability,prediction_label
+user1@upi,merchant10@shop,2500.0,Success,Credited,15/05/2025,14:30:00,Hyderabad,device001,Online Shopping,0,0.01,Legitimate
+user2@upi,merchant11@shop,15000.0,Success,Not Credited,16/05/2025,09:15:00,Mumbai,device002,Spam Site,1,0.64,Fraudulent
+user3@upi,merchant12@shop,500.0,Failed,Not Credited,17/05/2025,20:45:00,Delhi,device003,Bank,1,0.92,Fraudulent
+user4@upi,merchant13@shop,1200.0,Success,Credited,18/05/2025,11:00:00,Bangalore,device004,Online Shopping,0,0.02,Legitimate
+user5@upi,merchant14@shop,8000.0,Success,Credited,19/05/2025,16:30:00,Chennai,device005,Online Shopping,0,0.0,Legitimate
+user6@upi,merchant15@shop,10000.0,Success,Not Credited,20/05/2025,08:50:00,Pune,device006,Spam Site,1,0.64,Fraudulent
+user7@upi,merchant16@shop,600.0,Failed,Not Credited,21/05/2025,21:10:00,Delhi,device007,Bank,1,0.95,Fraudulent
+user8@upi,merchant17@shop,4500.0,Success,Credited,22/05/2025,10:25:00,Kolkata,device008,Online Shopping,0,0.04,Legitimate
+user9@upi,merchant18@shop,3000.0,Success,Credited,23/05/2025,14:40:00,Hyderabad,device009,Online Shopping,0,0.01,Legitimate
+user10@upi,merchant19@shop,7000.0,Success,Not Credited,24/05/2025,19:30:00,Mumbai,device010,Spam Site,1,0.62,Fraudulent

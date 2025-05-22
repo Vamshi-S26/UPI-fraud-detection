@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPI Fraud Detector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-image: url("/static/images/bg.jpg"); /* background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.92);
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            position: relative;
+        }
+
+        h1 {
+            color: #444;
+            text-align: center;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e9ffe9;
+            border-left: 5px solid #28a745;
+            font-weight: bold;
+        }
+
+        .explanation {
+            margin-top: 10px;
+            background: #fff;
+            padding: 10px;
+            border-left: 5px solid #007BFF;
+        }
+
+        /* Loader */
+        .loader {
+            display: none;
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #007BFF;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 999;
+            background: transparent;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .overlay {
+            display: none;
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(255,255,255,0.7);
+            z-index: 998;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay" id="overlay"></div>
+        <div class="loader" id="loader"></div>
+
+        <h1>UPI Fraud Detection</h1>
+        <form method="POST" onsubmit="showLoader()">
+            <input type="hidden" name="mode" value="single">
+
+            <label>Sender UPI ID</label>
+            <input type="text" name="sender_upi_id" required>
+
+            <label>Receiver UPI ID</label>
+            <input type="text" name="receiver_upi_id" required>
+
+            <label>Amount</label>
+            <input type="number" name="amount" step="0.01" required>
+
+            <label>User App Status</label>
+            <select name="user_app_status" required>
+                <option>Success</option>
+                <option>Failed</option>
+            </select>
+
+            <label>Bank Actual Status</label>
+            <select name="bank_actual_status" required>
+                <option>Credited</option>
+                <option>Not Credited</option>
+            </select>
+
+            <label>Date (dd/mm/yyyy)</label>
+            <input type="text" name="timestamp_date" placeholder="21/05/2025" required>
+
+            <label>Time (hh:mm:ss)</label>
+            <input type="text" name="timestamp_time" placeholder="14:30:00" required>
+
+            <label>Location</label>
+            <input type="text" name="location" required>
+
+            <label>Device ID</label>
+            <input type="text" name="device_id" required>
+
+            <label>Merchant Category</label>
+            <input type="text" name="merchant_category" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if result %}
+        <div class="result">Result: {{ result }}</div>
+        <div class="explanation">{{ explanation }}</div>
+        {% endif %}
+    </div>
+
+    <script>
+        function showLoader() {
+            document.getElementById("loader").style.display = "block";
+            document.getElementById("overlay").style.display = "block";
+        }
+    </script>
+</body>
+</html>

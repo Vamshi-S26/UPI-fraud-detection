@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome | UPI Fraud Detection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+            background-image: url("/static/images/welcome.jpg"); /* your pic */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 40px;
+        }
+
+        .enter-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 30px;
+            background: linear-gradient(45deg, #00d4ff, #007bff);
+            color: white;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+        }
+
+        .enter-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(0, 123, 255, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to UPI Fraud Detector</h1>
+    <p>Detect your payments status with AI 🚀</p>
+    <form action="/predict">
+        <button class="enter-btn">Enter</button>
+    </form>
+</body>
+</html>

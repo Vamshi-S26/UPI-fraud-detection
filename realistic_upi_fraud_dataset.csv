@@ -1,0 +1,101 @@
+sender_upi_id,receiver_upi_id,amount,user_app_status,bank_actual_status,timestamp_date,timestamp_time,location,device_id,merchant_category,is_fraud
+user6@bank,merchant22@shop,1449.45,Success,Credited,22/02/2025,12:03:23,Chennai,device_9,Travel,0
+user43@bank,merchant39@shop,1234.31,Success,Credited,11/03/2025,07:47:18,Mumbai,device_13,Spam Site,0
+user20@bank,merchant37@shop,8462.95,Success,Credited,21/10/2025,12:09:07,Bangalore,device_6,Bill Payment,0
+user10@bank,merchant41@shop,7046.96,Success,Credited,13/03/2025,02:07:07,Chennai,device_34,Bank,0
+user43@bank,merchant6@shop,2267.04,Success,Credited,07/05/2025,05:45:43,Kolkata,device_48,Spam Site,0
+user29@bank,merchant34@shop,1418.99,Success,Credited,01/08/2025,16:44:46,Kolkata,device_42,Travel,0
+user33@bank,merchant49@shop,388.15,Success,Credited,09/11/2025,02:02:47,Hyderabad,device_40,Spam Site,0
+user38@bank,merchant11@shop,8988.09,Success,Credited,15/12/2025,01:27:30,Kolkata,device_47,Bank,0
+user5@bank,merchant48@shop,3361.09,Success,Credited,21/03/2025,12:20:30,Chennai,device_40,Food Delivery,0
+user3@bank,merchant18@shop,2148.47,Success,Not Credited,12/03/2025,19:40:32,Bangalore,device_26,Bank,1
+user5@bank,merchant12@shop,4195.54,Success,Credited,27/11/2025,11:21:02,Delhi,device_48,Spam Site,0
+user10@bank,merchant19@shop,4270.31,Success,Credited,10/11/2025,08:36:02,Hyderabad,device_30,Travel,0
+user3@bank,merchant42@shop,3041.95,Success,Credited,16/05/2025,04:04:30,Mumbai,device_26,Food Delivery,0
+user49@bank,merchant50@shop,8853.9,Success,Credited,28/07/2025,19:50:37,Chennai,device_27,Bill Payment,0
+user12@bank,merchant36@shop,5230.69,Success,Credited,25/04/2025,01:27:21,Hyderabad,device_34,Spam Site,0
+user47@bank,merchant8@shop,5958.36,Failed,Not Credited,11/08/2025,03:31:58,Bangalore,device_39,Bill Payment,1
+user45@bank,merchant32@shop,7692.4,Success,Credited,02/09/2025,01:45:19,Bangalore,device_11,Food Delivery,0
+user39@bank,merchant28@shop,4721.07,Success,Credited,24/01/2025,19:50:08,Bangalore,device_38,Spam Site,0
+user20@bank,merchant2@shop,2790.32,Failed,Not Credited,07/11/2025,06:16:04,Hyderabad,device_27,Spam Site,1
+user24@bank,merchant6@shop,5802.74,Success,Credited,16/07/2025,14:28:24,Bangalore,device_31,Food Delivery,0
+user33@bank,merchant27@shop,1490.91,Success,Credited,20/09/2025,10:39:50,Hyderabad,device_33,Bill Payment,0
+user2@bank,merchant7@shop,6952.52,Success,Credited,21/12/2025,18:42:27,Delhi,device_10,Spam Site,0
+user12@bank,merchant23@shop,9197.06,Failed,Not Credited,03/06/2025,10:39:43,Mumbai,device_39,Bank,1
+user5@bank,merchant48@shop,3327.04,Failed,Not Credited,16/10/2025,00:14:18,Bangalore,device_28,Food Delivery,1
+user6@bank,merchant33@shop,931.09,Success,Credited,27/09/2025,21:07:57,Delhi,device_8,Spam Site,0
+user10@bank,merchant34@shop,122.49,Success,Not Credited,27/11/2025,22:19:23,Delhi,device_20,Travel,1
+user17@bank,merchant15@shop,9022.66,Success,Credited,10/10/2025,05:59:09,Hyderabad,device_20,Online Shopping,0
+user9@bank,merchant41@shop,9182.53,Failed,Not Credited,14/07/2025,07:43:05,Delhi,device_18,Online Shopping,1
+user44@bank,merchant48@shop,4689.05,Success,Credited,23/07/2025,23:25:51,Bangalore,device_33,Bank,0
+user9@bank,merchant42@shop,8847.39,Success,Credited,05/09/2025,02:32:41,Delhi,device_34,Food Delivery,0
+user19@bank,merchant43@shop,1564.89,Success,Credited,26/02/2025,08:09:15,Bangalore,device_15,Spam Site,0
+user19@bank,merchant46@shop,4751.9,Success,Credited,03/11/2025,08:18:06,Mumbai,device_14,Bill Payment,0
+user27@bank,merchant32@shop,4593.47,Success,Credited,05/04/2025,17:10:48,Mumbai,device_45,Spam Site,0
+user1@bank,merchant10@shop,7059.39,Success,Credited,17/08/2025,10:25:12,Hyderabad,device_40,Food Delivery,0
+user36@bank,merchant41@shop,6392.62,Success,Not Credited,20/06/2025,01:59:21,Kolkata,device_16,Bill Payment,1
+user25@bank,merchant29@shop,6750.29,Success,Credited,04/06/2025,23:43:16,Delhi,device_3,Travel,0
+user28@bank,merchant35@shop,535.67,Success,Credited,24/05/2025,18:41:34,Mumbai,device_27,Travel,0
+user45@bank,merchant49@shop,9085.22,Success,Credited,13/10/2025,14:03:34,Mumbai,device_37,Food Delivery,0
+user25@bank,merchant18@shop,2137.68,Success,Credited,07/04/2025,19:32:03,Bangalore,device_31,Food Delivery,0
+user35@bank,merchant6@shop,5837.42,Success,Credited,21/10/2025,09:05:07,Chennai,device_32,Travel,0
+user22@bank,merchant34@shop,1781.61,Success,Credited,14/10/2025,04:32:10,Kolkata,device_35,Bill Payment,0
+user35@bank,merchant6@shop,302.56,Success,Credited,08/05/2025,22:47:05,Delhi,device_29,Bank,0
+user13@bank,merchant24@shop,3482.32,Success,Credited,02/04/2025,06:00:01,Bangalore,device_42,Online Shopping,0
+user46@bank,merchant21@shop,4963.4,Success,Credited,17/12/2025,21:06:08,Kolkata,device_3,Food Delivery,0
+user19@bank,merchant34@shop,4429.57,Success,Credited,06/02/2025,03:19:07,Mumbai,device_6,Food Delivery,0
+user38@bank,merchant29@shop,6784.99,Success,Not Credited,23/03/2025,07:38:49,Kolkata,device_31,Travel,1
+user2@bank,merchant47@shop,5544.14,Success,Credited,13/09/2025,07:48:14,Bangalore,device_38,Travel,0
+user43@bank,merchant41@shop,8945.76,Success,Not Credited,09/01/2025,07:30:20,Bangalore,device_9,Bank,1
+user10@bank,merchant43@shop,8217.93,Success,Credited,20/09/2025,19:30:17,Chennai,device_16,Online Shopping,0
+user45@bank,merchant39@shop,7819.26,Success,Credited,08/06/2025,07:29:02,Chennai,device_22,Travel,0
+user23@bank,merchant26@shop,4544.78,Success,Credited,24/05/2025,22:54:58,Mumbai,device_32,Bill Payment,0
+user47@bank,merchant50@shop,245.75,Success,Not Credited,02/11/2025,19:08:41,Kolkata,device_11,Travel,1
+user22@bank,merchant28@shop,1744.99,Success,Credited,12/11/2025,01:17:19,Kolkata,device_11,Online Shopping,0
+user3@bank,merchant10@shop,7944.08,Success,Credited,04/04/2025,11:37:47,Chennai,device_14,Bill Payment,0
+user33@bank,merchant50@shop,2132.53,Success,Credited,16/01/2025,22:42:37,Hyderabad,device_23,Spam Site,0
+user48@bank,merchant37@shop,9786.99,Success,Credited,15/06/2025,16:24:59,Chennai,device_26,Bill Payment,0
+user34@bank,merchant13@shop,3063.02,Success,Credited,02/11/2025,03:29:10,Delhi,device_6,Spam Site,0
+user28@bank,merchant28@shop,374.68,Failed,Not Credited,22/11/2025,11:39:47,Kolkata,device_21,Bill Payment,1
+user46@bank,merchant45@shop,2612.88,Success,Credited,08/05/2025,12:24:39,Kolkata,device_8,Online Shopping,0
+user35@bank,merchant3@shop,5011.48,Success,Credited,17/04/2025,06:29:32,Kolkata,device_48,Travel,0
+user28@bank,merchant29@shop,2698.54,Success,Credited,01/12/2025,07:28:23,Chennai,device_37,Spam Site,0
+user46@bank,merchant7@shop,5308.51,Success,Credited,03/11/2025,21:37:14,Hyderabad,device_3,Bill Payment,0
+user6@bank,merchant37@shop,181.87,Success,Not Credited,15/10/2025,21:55:38,Delhi,device_8,Online Shopping,1
+user27@bank,merchant34@shop,8293.9,Success,Credited,16/02/2025,12:34:59,Chennai,device_18,Travel,0
+user9@bank,merchant7@shop,5271.32,Success,Credited,27/12/2025,00:21:30,Bangalore,device_2,Food Delivery,0
+user25@bank,merchant16@shop,5900.39,Success,Not Credited,25/03/2025,00:53:09,Delhi,device_33,Travel,1
+user16@bank,merchant13@shop,4846.95,Success,Credited,20/02/2025,13:09:24,Hyderabad,device_32,Travel,0
+user48@bank,merchant28@shop,2885.7,Success,Credited,02/07/2025,10:01:06,Chennai,device_10,Bill Payment,0
+user10@bank,merchant25@shop,9490.69,Success,Credited,28/06/2025,18:49:15,Bangalore,device_50,Online Shopping,0
+user24@bank,merchant33@shop,1503.44,Success,Credited,13/12/2025,06:47:04,Hyderabad,device_8,Food Delivery,0
+user47@bank,merchant14@shop,6826.93,Success,Credited,19/03/2025,11:20:04,Delhi,device_44,Spam Site,0
+user21@bank,merchant43@shop,2686.7,Success,Credited,03/08/2025,16:17:22,Hyderabad,device_31,Food Delivery,0
+user30@bank,merchant44@shop,2053.66,Success,Credited,02/10/2025,11:19:20,Kolkata,device_40,Spam Site,0
+user7@bank,merchant48@shop,654.36,Success,Credited,21/07/2025,11:53:38,Delhi,device_44,Bank,0
+user38@bank,merchant41@shop,150.04,Success,Credited,13/08/2025,18:47:46,Bangalore,device_42,Bill Payment,0
+user43@bank,merchant4@shop,1592.59,Success,Credited,18/05/2025,21:28:16,Hyderabad,device_22,Bill Payment,0
+user45@bank,merchant40@shop,7143.69,Success,Credited,05/09/2025,00:34:29,Hyderabad,device_22,Bank,0
+user47@bank,merchant20@shop,7665.41,Success,Credited,16/03/2025,20:35:11,Mumbai,device_16,Food Delivery,0
+user24@bank,merchant40@shop,4694.91,Success,Credited,13/01/2025,23:20:03,Mumbai,device_7,Spam Site,0
+user50@bank,merchant45@shop,1521.05,Success,Credited,17/12/2025,01:04:23,Delhi,device_24,Bill Payment,0
+user17@bank,merchant34@shop,9725.89,Success,Credited,15/07/2025,19:08:35,Mumbai,device_26,Spam Site,0
+user48@bank,merchant6@shop,5237.44,Failed,Not Credited,13/08/2025,07:58:19,Delhi,device_22,Spam Site,1
+user43@bank,merchant24@shop,5933.1,Success,Credited,05/01/2025,18:13:40,Bangalore,device_11,Bill Payment,0
+user31@bank,merchant25@shop,6959.17,Success,Credited,03/09/2025,11:26:01,Hyderabad,device_44,Food Delivery,0
+user19@bank,merchant43@shop,9349.58,Success,Credited,16/06/2025,17:29:53,Hyderabad,device_50,Bank,0
+user23@bank,merchant25@shop,5849.65,Success,Credited,18/01/2025,00:00:19,Chennai,device_24,Bank,0
+user19@bank,merchant16@shop,5432.86,Success,Credited,11/04/2025,19:38:36,Kolkata,device_28,Spam Site,0
+user2@bank,merchant34@shop,8928.78,Success,Credited,12/03/2025,20:03:02,Chennai,device_47,Food Delivery,0
+user21@bank,merchant40@shop,3196.84,Failed,Not Credited,14/05/2025,05:55:36,Delhi,device_12,Bank,1
+user32@bank,merchant10@shop,9967.3,Success,Credited,16/04/2025,17:55:54,Kolkata,device_22,Bank,0
+user5@bank,merchant42@shop,7823.4,Success,Credited,01/07/2025,06:14:28,Chennai,device_14,Travel,0
+user20@bank,merchant24@shop,2689.32,Success,Credited,12/02/2025,14:50:44,Bangalore,device_16,Food Delivery,0
+user6@bank,merchant28@shop,9185.41,Success,Credited,23/02/2025,02:19:09,Hyderabad,device_21,Spam Site,0
+user41@bank,merchant27@shop,2114.22,Success,Credited,14/10/2025,20:23:45,Kolkata,device_22,Online Shopping,0
+user12@bank,merchant45@shop,9231.97,Success,Credited,02/02/2025,18:52:09,Bangalore,device_48,Bank,0
+user6@bank,merchant31@shop,5417.0,Success,Not Credited,24/02/2025,10:50:57,Bangalore,device_10,Food Delivery,1
+user7@bank,merchant34@shop,4974.39,Success,Credited,08/10/2025,08:56:42,Chennai,device_48,Online Shopping,0
+user5@bank,merchant5@shop,2581.32,Success,Credited,03/10/2025,07:43:04,Delhi,device_41,Bank,0
+user21@bank,merchant39@shop,6115.2,Failed,Not Credited,12/11/2025,20:15:28,Bangalore,device_13,Bill Payment,1
+user37@bank,merchant46@shop,3327.38,Success,Credited,26/10/2025,03:55:08,Kolkata,device_39,Food Delivery,0
